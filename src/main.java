@@ -4,6 +4,8 @@ public class main {
 
     public static void main(String[] args) throws IOException {
 
+        Frame frame = new Frame();
+
         String opcja = new String();
         System.out.println("Do you want to input data from keyboard or from file?");
         System.out.println("1. From Keyboard");
